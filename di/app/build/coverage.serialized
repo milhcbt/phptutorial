@@ -1,0 +1,86 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/app/src/Email.php' => 
+  array (
+    10 => 
+    array (
+      0 => 'EmailTest::testCanBeCreatedFromValidEmailAddress',
+      1 => 'EmailTest::testCannotBeCreatedFromInvalidEmailAddress',
+      2 => 'EmailTest::testCanBeUsedAsString',
+    ),
+    12 => 
+    array (
+      0 => 'EmailTest::testCanBeCreatedFromValidEmailAddress',
+      1 => 'EmailTest::testCanBeUsedAsString',
+    ),
+    13 => 
+    array (
+      0 => 'EmailTest::testCanBeCreatedFromValidEmailAddress',
+      1 => 'EmailTest::testCanBeUsedAsString',
+    ),
+    17 => 
+    array (
+      0 => 'EmailTest::testCanBeCreatedFromValidEmailAddress',
+      1 => 'EmailTest::testCannotBeCreatedFromInvalidEmailAddress',
+      2 => 'EmailTest::testCanBeUsedAsString',
+    ),
+    18 => NULL,
+    22 => 
+    array (
+      0 => 'EmailTest::testCanBeUsedAsString',
+    ),
+    23 => NULL,
+    27 => 
+    array (
+      0 => 'EmailTest::testCanBeCreatedFromValidEmailAddress',
+      1 => 'EmailTest::testCannotBeCreatedFromInvalidEmailAddress',
+      2 => 'EmailTest::testCanBeUsedAsString',
+    ),
+    28 => 
+    array (
+      0 => 'EmailTest::testCannotBeCreatedFromInvalidEmailAddress',
+    ),
+    29 => 
+    array (
+      0 => 'EmailTest::testCannotBeCreatedFromInvalidEmailAddress',
+    ),
+    30 => 
+    array (
+      0 => 'EmailTest::testCannotBeCreatedFromInvalidEmailAddress',
+    ),
+    31 => 
+    array (
+      0 => 'EmailTest::testCannotBeCreatedFromInvalidEmailAddress',
+    ),
+    35 => 
+    array (
+      0 => 'EmailTest::testCanBeCreatedFromValidEmailAddress',
+      1 => 'EmailTest::testCanBeUsedAsString',
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'EmailTest::testCanBeCreatedFromValidEmailAddress' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'EmailTest::testCannotBeCreatedFromInvalidEmailAddress' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'EmailTest::testCanBeUsedAsString' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/app/src/Email.php' => true,
+));
+
+return $coverage;

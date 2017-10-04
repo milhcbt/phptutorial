@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Project Test Suite" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.009569">
+    <testsuite name="EmailTest" file="/app/tests/EmailTest.php" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.009569">
+      <testcase name="testCanBeCreatedFromValidEmailAddress" class="EmailTest" classname="EmailTest" file="/app/tests/EmailTest.php" line="11" assertions="1" time="0.002532"/>
+      <testcase name="testCannotBeCreatedFromInvalidEmailAddress" class="EmailTest" classname="EmailTest" file="/app/tests/EmailTest.php" line="19" assertions="1" time="0.001795"/>
+      <testcase name="testCanBeUsedAsString" class="EmailTest" classname="EmailTest" file="/app/tests/EmailTest.php" line="26" assertions="1" time="0.005242"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
